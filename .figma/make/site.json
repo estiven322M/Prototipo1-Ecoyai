@@ -1,0 +1,10 @@
+{
+  "description": "Showcases ÉCOYAI's mission to preserve Siona language and culture through AI, offering clear info, project insights, and collaboration options.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
