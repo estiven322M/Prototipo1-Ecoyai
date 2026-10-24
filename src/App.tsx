@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react'
+import forest from './assets/forest.png'
+import logo from './assets/logo.png'
+
 
 type Lang = 'es' | 'en'
 
-const forest = 'https://images.unsplash.com/photo-1593069567131-53a0614dde1d?auto=format&fit=crop&w=2200&q=85'
+
 const river = 'https://images.unsplash.com/photo-1701091490268-2ae3de5f5f2f?auto=format&fit=crop&w=1400&q=85'
 
 const t = {
@@ -169,12 +172,9 @@ type Dialog = 'donate' | 'contact' | 'pending'
 
 function Brand() {
   return (
-    <a href="#inicio" className="brand" aria-label="ÉCOYAI">
-      <svg width="30" height="36" viewBox="0 0 33 39" fill="none" aria-hidden="true">
-        <path d="M16.5 2v35M4 9l12.5 9L29 9M4 20l12.5 9L29 20M9 3l7.5 5L24 3" stroke="currentColor" strokeWidth="2" />
-        <path d="m5 30 11.5 7L28 30" stroke="currentColor" strokeWidth="2" />
-      </svg>
-      <span>ÉCOYAI</span>
+
+    <a href="#inicio" className='brand'>
+      <img src={logo} alt="Écoyai" />
     </a>
   )
 }
